@@ -10,6 +10,7 @@
 #include <string.h>
 #include <errno.h>
 #include <time.h>
+#include <sys/select.h>
 
 #undef max
 #define max(x,y) ((x) > (y) ? (x) : (y))
